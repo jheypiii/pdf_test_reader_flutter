@@ -1,0 +1,16 @@
+name: pdf_test_reader
+description: App para ler testes de PDF
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  file_picker: ^5.3.3      # Para selecionar PDFs
+  pdf: ^3.8.1              # Para ler PDFs
+  flutter_riverpod: ^2.4.9 # Gerenciamento de estado
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
